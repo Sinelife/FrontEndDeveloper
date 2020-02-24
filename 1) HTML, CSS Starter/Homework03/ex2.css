@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(189, 206, 238);
+}
+
+h1.mainHeader {
+    text-align: center;
+    color: rgb(19, 71, 230);
+}
+
+h2.header {
+    text-align: center;
+    color: rgb(92, 126, 228);
+}
+
+p {
+    font-size: 15px;
+    color: rgb(41, 27, 27);
+}
+
+span.underlined {
+    text-decoration: underline;
+}
+
+span.bold {
+    font-weight: 900;
+}
+
+span.italic {
+    font-style: italic;
+}

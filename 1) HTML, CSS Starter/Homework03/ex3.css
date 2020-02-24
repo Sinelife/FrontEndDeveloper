@@ -1,0 +1,31 @@
+p.p_solid {
+    border: 3px solid black;
+}
+
+p.p_dashed {
+    border: 3px dashed black;
+}
+
+p.p_dotted {
+    border: 3px dotted black;
+}
+
+p.p_double {
+    border: 3px double black;
+}
+
+p.p_groove {
+    border: 3px groove rgb(125, 206, 243);
+}
+
+p.p_ridge {
+    border: 3px ridge rgb(125, 206, 243);
+}
+
+p.p_inset{
+    border: 3px inset rgb(125, 206, 243);
+}
+
+p.p_outset {
+    border: 3px outset rgb(125, 206, 243);
+}

@@ -1,0 +1,30 @@
+p.p1 {
+    background-color: burlywood;
+}
+
+p.p2 {
+    background-color: rgb(221, 44, 221);
+}
+
+p.p3 {
+    background-color: #27F02A;
+}
+
+p.p4 {
+    background-color: hsl(181, 73%, 86%);
+}
+
+p.p6 {
+    color:rgba(33, 236, 94, 0.986)
+}
+
+
+div.div1 {
+    background-size: 10%;
+    background-image: url('https://pm1.narvii.com/6799/e2cd994da70a679932a1cc05f5b7f2dceacebee0v2_hq.jpg');
+}
+
+div.div2 {
+    background-size: 20%;
+    background-image: url('https://99px.ru/sstorage/53/2018/09/tmb_237602_299120.jpg');
+}
