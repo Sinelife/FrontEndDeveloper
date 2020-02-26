@@ -1,0 +1,182 @@
+/*Подключаем шрифты, которые будут использоваться*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Press+Start+2P&display=swap');
+
+/*Все заголовки h1 получают шрифт Press Start 2P*/
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+
+
+
+
+/* ---------------------------------------------СЛОЖНЫЕ СЕЛЕКТОРЫ-------------------------------------*/
+
+/* Контекстный селектор */
+.list1 li p {
+    margin: 10px;
+    font-size: 24px;
+    color: violet;            
+}
+
+/*Селектор, который выбирает все параграфы после h1 */
+h1 ~ p {
+    font-size: 19px;
+    color: blue;
+}
+
+/*Селектор, который выбирает параграф идущий после h1 */
+h1 + p {
+    font-size: 19px;
+    color: brown;
+}
+
+/*Селектор, который вибирает дочерний к h1 элемент a */
+h1 > a {
+    color: cyan;
+    text-decoration: none;
+}
+
+
+
+
+/* ---------------------------------------------ПСЕВДОЭЛЕМЕНТЫ -------------------------------------*/
+
+/*Псевдоэлемент для задания текста после параграфа*/
+p.info-after::after {
+    content: '!!!!!!!!!';
+}
+
+/*Псевдоэлемент для задания текста до параграфа*/
+p.info-before::before {
+    margin: 10px;
+    content: 'ОПРЕДЕЛЕНИЕ:';
+}   
+
+/*Псевдоэлемент для изменения первой буквы параграфа*/
+p.first-letter::first-letter{
+    font-size: 28px;
+    color:rgb(147, 10, 182);
+}
+
+/*Псевдоэлемент для изменения первой строки параграфа*/
+p.first-line::first-line{
+    color: black;
+}
+
+/*Псевдоэлемент изменяющий стили выделеного текста*/
+::selection{
+    background-color:rgb(7, 7, 65);
+    color: rgb(0, 253, 110);
+}
+
+/*Псевдокласс :nth-child используется для добавления стиля к элементам на основе нумерации в дереве элементов. CSS3. */
+td:nth-child(1) {
+    background-color: rgb(210, 167, 218);
+}
+
+tr:nth-child(2) {
+    background-color: rgb(167, 218, 167);
+}
+
+ /*nth-last-child - то же что и nth-child но обход элементов начинается с последнего */
+tr:nth-last-child(2) {
+    background-color: rgb(195, 224, 157);
+}
+
+/*Псевдокласс :only-of-type применяется к дочернему элементу указанного типа, только если он единственный у родителя. CSS3 */
+span:only-of-type {
+    border: 5px dotted red;
+}
+
+
+
+
+/* ---------------------------------------------ПСЕВДОКЛАСЫ -------------------------------------*/
+
+:empty {
+    background-color: firebrick;
+}
+
+/* Псевдокласс first-child устанавливает стилевое оформление к первому дочернему элементу своего родителя.  */
+span:first-child{
+    color: rgb(252, 252, 21);
+}
+
+/* Псевдокласс :first-child устанавливает стилевое оформление к последнему дочернему элементу своего родителя. */
+span:last-child {
+    color: rgb(69, 248, 188);
+}
+
+/* Псевдокласс first-of-type устанавливает стилевое оформление к первому дочернему элементу своего родителя данного типа.  */
+div:first-of-type {
+    color: rgb(173, 51, 61);
+}
+
+/* Псевдокласс last-of-type устанавливает стилевое оформление к последнему дочернему элементу своего родителя данного типа.  */
+div:last-of-type {
+    color: rgb(196, 183, 183);
+}
+
+/* Псевдокласс, который опредиляет все стили кроме кроме h1.  */
+:not(h1){
+    font-family: 'Pacifico';
+}
+
+
+
+
+
+
+
+
+
+
+/*Задаем вместо обычных маркеров списка картинки нужных нам фигур */
+
+.dott {
+    list-style-image: url(images/dot.png);
+}
+
+.line {
+    list-style-image: url(images/line.png);
+}
+
+.square {
+    list-style-image: url(images/square.png);
+}
+
+.cube {
+    list-style-image: url(images/cube.png);
+}
+
+.tesseract {
+    list-style-image: url(images/tesseract.png);
+}
+
+
+
+
+
+/*Стили для обработки текста*/
+p {
+    word-spacing: 15px;
+    letter-spacing: 2px;
+}
+
+/*Стили для добавления теней к тексту*/
+.shadows{
+    text-shadow: 1px 1px 5px red, 5px 5px 15px blue;
+}
+
+/* Стили для вертикальной записи элемента(в нашем случае таюлицы). */
+table.vertical {
+    border: 1px;
+    font-size: 20px;
+    text-align: center;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Homemade+Apple|Monoton|Trade+Winds&display=swap');
+
+p.p1 {
+    font-size: 22px;
+    font-family: 'Trade Winds';
+    color: rgb(6, 92, 92);
+    background-color: cyan;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+
+p.p2 {
+    font-size: 30px;
+    font-family: 'Monoton';
+    color: rgb(44, 212, 44);
+    word-spacing: 20px;
+    line-height: 35px;
+}
+
+p.p3 {
+    font-size: 15px;
+    font-family: 'Homemade Apple';
+    color: rgb(219, 47, 16);
+    width: 900px;
+    height: 190px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+p.p4 {
+    font-size: 45px;
+    font-family: 'Allura';
+    color: rgb(92, 6, 92);
+    width: 1600px;
+    height: 300px;
+    text-overflow: ellipsis;
+    overflow: scroll;
+}
+
+
+.cross {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+.big-size {
+    font-size: 40px;
+}
+
+.shadow-black {
+    text-shadow: 1px 1px 5px black;
+}
+
+.shadow-violet {
+    text-shadow: 1px 1px 50px violet;
+}
