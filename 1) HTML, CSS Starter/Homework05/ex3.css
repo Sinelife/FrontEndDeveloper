@@ -1,0 +1,62 @@
+/* Стили для всех блоков div */
+div {
+    margin: 3px;
+    padding-top: 10px;
+    border : 2px solid #355d8b;
+    float: left;
+}
+
+/* Стили для всех заголовочных блоков div */
+div.header {
+    width: 170px;
+    padding-left: 25px;
+    height:50px;
+}
+
+/* Стили для всех контентовых блоков div */
+div.content {
+    width: 150px;
+    padding-left: 45px;
+    height: 230px;
+}
+
+/* Стили для первого заголовочного блока */
+#header-elem1 {
+    background-color:#994601;
+}
+
+/* Стили для второго заголовочного блока */
+#header-elem2 {
+    background-color: #789439;
+}
+
+/* Стили для третьего заголовочного блока */
+#header-elem3 {
+    background-color: #346093;
+}
+
+/* Стили для первого контентового блока */
+#content-elem1 {
+    background-color: #fac191;
+    clear: left;
+}
+
+/* Стили для второго контентового блока */
+#content-elem2 {
+    background-color: #c4d79c;
+}
+
+/* Стили для третьего контентового блока */
+#content-elem3 {
+    background-color: #96b5d8;
+}
+
+/* Стили для всех span */
+span {
+    font-size: 30px;
+}
+
+/* Стили для всех заголовочных span */
+span.header {
+    color: white;
+}
