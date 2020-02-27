@@ -1,0 +1,57 @@
+/* Стили для большого квадрата*/
+div.big-elem {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+/* Стили для среднего квадрата*/
+div.middle-elem {
+    width: 100px;
+    height: 100px;
+}
+
+/* Стили для первого среднего квадрата*/
+#elem1 {
+    background-color: yellow;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+/* Стили для второго среднего квадрата*/
+#elem2 {
+    background-color: red;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+
+/* Стили для третьего среднего квадрата*/
+#elem3 {
+    background-color: olive;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+
+/* Стили для четвертого среднего квадрата*/
+#elem4 {
+    background-color: green;
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+
+/* Стили для маленького квадрата*/
+div.small-elem {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 325px;
+    top: 175px;
+}
