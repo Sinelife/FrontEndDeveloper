@@ -1,0 +1,140 @@
+/*Подключаэм шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display|Caveat|Pacifico&display=swap');
+
+/* Стили для того чтоб избежать лишних отступов*/
+* {
+    margin: 0;
+}
+
+/* Стили для body*/
+body {
+    background-color: #9bcb9c;
+}
+
+/* Стили для блока шапки сайта */
+header{
+    width: 100%;
+    height: 150px;
+    background-color : #64cacb;
+    padding-top: 30px;
+}
+
+/* Стили для блока навигации */
+nav{
+    padding-top: 20px;
+    width: 100%;
+    height: 90px;
+    background-color : #fb9693;
+}
+
+/* Стили для основного блока */
+main{
+    width: 100%;
+}
+
+/* Стили для части основного блока отвечающей за конвертер*/
+article.converter{
+    width: 25%;
+    background-color: #9bcb9c;
+    float: left;
+}
+
+/* Стили для части основного блока отвечающей за основной контент*/
+article.content{
+    width: 50%;
+    background-color: #cccfd0;
+    float: left;
+}
+
+/* Стили для части основного блока отвечающей за блок с картинками*/
+article.article-image{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+/* Стили для нижнего блока подвала сайта*/
+footer{
+    width: 100%;
+    height: 0px;
+    background-color: #0466fc;
+    float: left;
+}
+
+/* Стили для главного заголовка h1*/
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Ruslan Display';
+}
+
+/* Стили для заголовков h2 для блока контента в основном блоке сайта*/
+h2.central-block-header {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Caveat';
+}
+
+/* Стили для всех ссылок сайта*/
+a {
+    margin-left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Caveat';
+    color: rgb(198, 66, 255)
+}
+
+/* Стили для всех ссылок сайта при наведени на них мышкой*/
+a:hover {
+    color: darkviolet;
+}
+
+/* Стили для всех ссылок сайта при нажатии мышкой*/
+a:active {
+    color: cyan;
+}
+
+/* Стили для всех input блоков*/
+input {
+    background-color: #9bcb9c;
+    width: 200px;
+}
+
+/* Общие стили для блоков input, output и для текста из блока конвертера из основного блока сайта*/
+span.converter-text, output, input {
+    font-family: 'Caveat';
+    font-size: 33px;
+}
+
+/* Стили для текста в блоке с картинками*/
+span.img-block {
+    font-family: 'Caveat';
+    font-size: 33px;
+}
+
+/* Стили для верхнего текста в блоке с картинками*/
+span.img-block-above{
+    font-family: 'Caveat';
+    font-size: 13px;
+
+}
+
+/* Стили для параграфов блока контента основного блока сайта*/
+p.main-article {
+    font-family: 'Pacifico';
+    padding: 10px 30px;
+}
+
+/* Стили для подвала сайта*/
+p.footer {
+    background-color: royalblue;
+    text-align: center;
+    font-family: 'Pacifico';
+    padding: 10px 30px;
+}
+
+/* Стили для всех картинок на сайте*/
+img {
+    margin: 20px 20px;
+    width: 70%;
+}

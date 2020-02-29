@@ -1,0 +1,28 @@
+/* Стили для блока div */
+div {
+    margin: 20px;
+    width: 30%;
+    float: left;
+}
+
+/* Стили для заголовка h2 */
+h2 {
+    text-align: center;
+}
+
+/* Стили для картинки */
+img {
+    border: 1px solid rgb(112, 107, 177);
+    border-radius: 50px;
+    padding: 5px;
+    width: 150px;
+    height: 220px;
+
+}
+
+/* Стили для картинки при наведении на нее*/
+img:hover {
+    box-shadow: 0 0 5px 1px rgb(60, 51, 187);
+}
+
+

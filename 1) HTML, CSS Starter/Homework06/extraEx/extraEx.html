@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Serzhan_Homework06_ExtraEx</title>
+        <link href="extraEx.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Валюты</h1>
+        </header>
+        <nav>
+            <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BB%D0%BB%D0%B0%D1%80_%D0%A1%D0%A8%D0%90">Долар($)</a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D1%80%D0%BE">Евро(€)</a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B3%D0%BE%D0%B2">Фунт Стерлингов(£)</a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B5%D0%BD%D0%B0">Ен(¥)</a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D1%80%D0%B8%D0%B2%D0%BD%D0%B0">Гривна(₴)</a>
+        </nav>
+        <main>
+            <section>
+                <article class="converter">
+                    <p>
+                        <span class="converter-text">Введите количество гривен:</span>
+                    </p>
+                    <form oninput="resultDolar.value=(grivna.value / 24.6).toFixed(2); 
+                                   resultEuro.value=(grivna.value / 27.13).toFixed(2);
+                                   resultPound.value=(grivna.value / 31.54).toFixed(2);
+                                   resultYen.value=(grivna.value * 4.39).toFixed(2);
+                                   ">
+                        <p>
+                            <span class="converter-text">Гривны:</span>
+                            <input type="number" name="grivna" autofocus>
+                        </p>
+                        <p>
+                            <span class="converter-text">Долары:</span>
+                            <output type="number" name="resultDolar"><span>0</span></output>
+                        </p>
+                        <p>
+                            <span class="converter-text">Евро:</span>
+                            <output name="resultEuro"><span>0</span></output>
+                        </p>
+                        <p>
+                            <span class="converter-text">Фунты Стерлингов:</span> 
+                            <output name="resultPound"><span>0</span></output>
+                        </p>
+                        <p>
+                            <span class="converter-text">Ены:</span>
+                            <output name="resultYen"><span>0</span></output>
+                        </p>
+                    </form>
+                </article>
+                <article class="content">
+                    <details>
+                        <summary>
+                            <h2 class="central-block-header">
+                                Гривна
+                            </h2>
+                        </summary>
+                        <p class="main-article">
+                           Гривна (укр. гривня) — национальная валюта Украины (с 1996 года), названная в честь древнерусской гривны, древней денежной единицы, представлявшей собой слиток серебра. Гривна делится на 100 копеек (укр. копійка). Буквенный код валюты в стандарте ISO 4217 — UAH, цифровой — 980. Официальный знак — ₴.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <h2 class="central-block-header">
+                                Доллар
+                            </h2>
+                        </summary>
+                        <p class="main-article">
+                            Доллар Соединённых Штатов Америки (англ. United States dollar) — денежная единица США, одна из основных резервных валют мира. 1 доллар = 100 центов. Символьное обозначение в англоязычных текстах: $. Буквенный код валюты: USD. Правом денежной эмиссии обладает Федеральная резервная система (англ. Federal Reserve System), выполняющая в США функции центрального банка.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <h2 class="central-block-header">
+                                Евро
+                            </h2>
+                        </summary>
+                        <p class="main-article">
+                            Евро (знак валюты — €, банковский код: EUR) — официальная валюта 19 стран «еврозоны» (Австрии, Бельгии, Германии, Греции, Ирландии, Испании, Италии, Кипра, Латвии, Литвы, Люксембурга, Мальты, Нидерландов, Португалии, Словакии, Словении, Финляндии, Франции, Эстонии). Евро также является национальной валютой ещё 12 государств, 7 из которых расположены в Европе. Однако в отличие от участников еврозоны, данные страны не могут влиять на денежно-кредитную политику Европейского центрального банка и направлять своих представителей в его руководящие органы.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <h2 class="central-block-header">
+                                Фунт стерлингов
+                            </h2>
+                        </summary>
+                        <p class="main-article">
+                            Фунт сте́рлингов, фунт, британский фунт (англ. Pound sterling, Pound, British pound) — денежная единица, являющаяся:
+                            национальной валютой Соединённого Королевства Великобритании и Северной Ирландии (Великобритании), включающего Англию, Шотландию, Уэльс и Северную Ирландию;
+                            параллельной валютой коронных земель Гернси, Джерси и Острова Мэн;
+                            законным средством платежа для британских заморских территорий: Фолклендские острова, Гибралтар, Острова Святой Елены, Вознесения и Тристан-да-Кунья.
+                        </p>
+                    </details>
+                    
+                    <details>
+                        <summary>
+                            <h2 class="central-block-header">
+                                Ен
+                            </h2>
+                        </summary>
+                        <p class="main-article">
+                            Иена — денежная единица Японии, одна из основных резервных валют мира. Делится на 100 сен (счётная денежная единица, в 1954 году изъята из обращения). Международный код: JPY. Символом иены является знак ¥. В виде серебряных и золотых монет стала чеканиться в 1869—1871 годах.
+                        </p>
+                    </details>
+                </article>
+                <article class="article-image">
+                    <ruby>
+                        <span class="img-block">Картинки</span> 
+                        <rp>
+                            if not support
+                        </rp>
+                        <rt>
+                            <span class="img-block-above">(гривны)</span>
+                        </rt>
+                    </ruby>
+                    <img src="img/grivnas1.jpg">
+                    <img src="img/grivnas2.jpg">
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p class="footer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati e repudiandae maiores quis harum. Porro sequi itaque necessitatibus voluptatum non nam eaque ad cumque odio!</p>
+        </footer>
+    </body>
+</html>
