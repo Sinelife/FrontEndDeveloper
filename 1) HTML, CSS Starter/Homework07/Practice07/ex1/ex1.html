@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Serzhan_Practice07_Ex1</title>
+        <link href="ex1.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Начало формы -->
+        <form method="post" action="" enctype="text/plain">
+            <div class="container">
+                <!-- Начало 1-ой части формы -->
+                <h2 class="title">Personal information</h2>
+
+                <!-- Часть формы отвечающая за имя -->
+                <div class="necessarily-row">
+                    <label for="name" class="field-label">First name: </label>
+                    <input type="text" name="name" id="name" required/>
+                </div>
+        
+                <!-- Часть формы отвечающая за логин -->
+                <div class="necessarily-row">
+                    <label for="login" class="field-label">Login: </label>
+                    <input type="text" name="login" id="login" required/>
+                </div>
+
+                <!-- Часть формы отвечающая за пароль -->
+                <div class="necessarily-row">
+                    <label for="surname" class="field-label">Password: </label>
+                    <input type="password" name="password" id="password" required/>
+                </div>
+
+                <!-- Часть формы отвечающая за возраст -->
+                <div>
+                    <label for="age" class="field-label">Age: </label>
+                    <input type="number" name="age" id="age" min="0" max="120"/>
+                </div>
+        
+                <!-- Начало 2-ой части формы -->
+                <h2 class="title">Other Information</h2>
+
+                <!-- Часть формы отвечающая за город -->
+                <div>
+                    <label for="city" class="field-label">City: </label>
+                    <select id="city" name="city">
+                        <option disabled selected>Chose city</option>
+                        <option value="kyiv">Kyiv</option>
+                        <option value="lviv">Lviv</option>
+                        <option value="poltava">Poltava</option>
+                        <option value="ivano-frankivsk">Ivano-Frankivsk</option>
+                        <option value="dnipro">Dnipro</option>
+                        <option value="kharkiv">Kharkiv</option>
+                        <option value="kherson">Kherson</option>
+                        <option value="sumy">Sumy</option>
+                    </select>
+                </div>
+
+                <!-- Часть формы отвечающая за любимое блюдо -->
+                <div>
+                    <label class="food" class="field-label">Favorite Food:</label>
+                    <div class="checkbox-block">
+                        <div class="food">            
+                            <input type="checkbox" checked name="borscht"/>
+                            <label>Borscht</label>
+                        </div>
+                        <div class="food">
+                            <input type="checkbox" name="onion-soup"/>
+                            <label>Onion soup</label>
+                        </div>
+                        <div class="food">
+                            <input type="checkbox" name="mushroom-soup"/>
+                            <label>Mushroom soup</label>
+                        </div>
+                        <div class="food">
+                            <input type="checkbox" name="fish-soup"/>
+                            <label>Fish Soup</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Часть формы отвечающая за пол -->
+                <div> 
+                    <label class="gender" class="field-label">Gender:</label>
+                    <div class="radio-block">
+                        <div class="gender">
+                            <input type="radio" name="gender" value="male"/>
+                            <label>Male</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" name="gender" value="dinner"/>
+                            <label>Female</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" name="gender" value="evening"/>
+                            <label>Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Часть формы отвечающая за кнопку -->
+                <div class="button">
+                    <input class="button-send" type="submit" value="Send" />
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

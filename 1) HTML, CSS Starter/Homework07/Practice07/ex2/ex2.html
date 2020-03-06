@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Serzhan_Practice07_Ex2</title>
+        <link href="ex2.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Начало формы -->
+        <form method="post" action="" enctype="text/plain">
+            <div class="container">
+                <!-- Часть формы отвечающая за имя -->
+                <div class="necessarily-row">
+                    <label for="firstname">First name</label>
+                    <input class="necessarily-row" type="text" name="firstname" id="firstname" placeholder="First name" required/>
+                </div>
+        
+                <!-- Часть формы отвечающая за фамилию -->
+                <div class="necessarily-row">
+                    <label for="lastname">Last Name</label>
+                    <input class="necessarily-row" type="text" name="lastname" id="lastname" placeholder="Last name" required/>
+                </div>
+
+                <!-- Часть формы отвечающая за е-мейл  -->
+                <div class="necessarily-row">
+                    <label for="email">Email</label>
+                    <input class="necessarily-row" type="email" name="email" id="email" placeholder="anything@example.com" required/>
+                </div>
+
+                <!-- Часть формы отвечающая за день рождения -->
+                <div>
+                    <label for="birthday-date">Date of birthday(we like to send presents!) </label>
+                    <input class="birthday-date" type="date" name="birthday-date" id="birthday-date" placeholder="Day-Month-Year"/>
+                </div>
+
+                <!-- Часть формы отвечающая за страну -->
+                <div>
+                    <label for="country">Country </label>
+                    <input type="text" name="country" id="country"/>
+                </div>
+
+                <!-- Часть формы отвечающая за количество компьютеров -->
+                <div>
+                    <label for="comp-num">How many computers do you have at home? </label>
+                    <input class="comp-num" type="number" name="comp-num" id="comp-num" value="2"/>
+                </div>
+
+                <!-- Часть формы с дополнительным текстом -->
+                <div class="extra">
+                    <div class="extra-text">
+                        We love spam, and we'll share your email address with all our third-party friends. Heck, we'll even sell it! If you're happy to recieve annoying email on a regular basis please click submit...
+                    </div>
+
+                    <div class="extra-text extra-symbol">
+                        denotes a required field.
+                    </div>
+                </div>
+
+                <!-- Часть формы с кнопкой -->
+                <input class="button-sign" type="submit" value="Sign me up!" />
+            </div>
+        </form>
+    </body>
+</html>

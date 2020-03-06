@@ -1,0 +1,82 @@
+/* Стили всего body*/
+body {
+    background-color: #e63d1b;
+}
+
+/* Стили всего главного контейнера div*/
+div.container {
+    background-color: #751e0d;
+    width: 25%;
+    margin: 30px 35%;
+    padding: 1px 20px;
+    border-radius: 20px;
+}
+
+/* Стили для текста перед полями ввода */
+label {
+    display:block;
+    position:relative;
+    color: white;
+}
+
+/* Стили для всех полей ввода input*/
+input {
+    width: 92%;
+    padding-left: 5px;
+}
+
+/* Стили для поля ввода для дня рождения*/
+input.birthday-date {
+    width: 50%;
+}
+
+/* Стили для поля ввода для количества компьютеров*/
+input.comp-num {
+    width: 20%;
+}
+
+/* Стили для поля ввода для обязательных полей*/
+input.necessarily-row {
+    border: 1px solid red;
+}
+
+/* Стили для всех div контейнеров*/
+div {
+    margin: 17px 4px;
+}
+
+/* Стили для текста перед обязательным полем ввода*/
+div.necessarily-row ::after {
+    content: '*';
+    color: #de1207;
+}
+
+/*Стили для всего блока дополнительного текста под основным контентом*/
+div.extra {
+    margin: 35px 0px 0px 0px;
+}
+
+/* Стили для дополнительного текста под основным контентом*/
+div.extra-text {
+    font-size: 10px;
+    color: white;
+}
+
+/* Стили для одной из частей дополнительного текста под основным контентом, где нужен дополнительный символ*/
+div.extra-symbol::before {
+    content: '*';
+    color: #de1207;
+}
+
+/* Стили для кнопки*/
+input.button-sign {
+    border-radius: 5px;
+    border: none;
+    background-color: #fc9207;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 3px 7px 3px 7px;
+    margin: 0px 0px 20px 50%;
+    width: 50%;
+}

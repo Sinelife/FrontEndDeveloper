@@ -1,0 +1,62 @@
+/* Стили для формы */
+form {
+    margin-left: 25%;
+    width: 50%;
+}
+
+/* Стили всего главного контейнера div*/
+div.container {
+    background-color: rgb(243, 248, 231);
+    padding: 15px;
+}
+
+/* Стили для заголовков частей форм*/
+.title {
+    overflow: hidden;
+    text-align: center;
+    color: #4c6e8f;
+    font-size: 25px;
+}
+
+/* Стили для всех блоков div*/
+div {
+    margin: 11px 0px 0px 0px;
+}
+
+/* Стили для текста с перед обязательным полем ввода*/
+div.necessarily-row {
+    font-weight: 900;
+}
+
+div.necessarily-row ::after {
+    content: '*';
+}
+
+/* Стили для текста перед полями ввода */
+label.field-label {
+    width: 180px;
+    float: left;
+}
+
+/* Стили для блока с еазванием еды */
+div.food {
+    display: inline-block;
+    margin: 0px 8% 0px 0px;
+}
+
+/* Стили для блока с названием пола */
+div.gender {
+    display: inline-block;
+    margin: 0px 22% 0px 0px;
+}
+
+/* Стили для полей ввода(input) и выбора(select)*/
+input, select {
+    width: 60%;
+}
+
+/* Стили для кнопки */
+input.button-send {
+    width: 70px;
+    margin-left: 35%;
+}
