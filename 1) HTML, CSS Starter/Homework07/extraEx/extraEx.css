@@ -1,0 +1,74 @@
+/*Подключаем шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Caveat&display=swap');
+
+/*Стили для главного контейнера div*/
+div.container {
+    border: 3px solid lightgreen;
+    margin: 0px 20%;
+}
+
+/*Стили для главного заголовка h1*/
+h1 {
+    font-family: 'Indie Flower';
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Стили для контейнера, в котором находиться основная часть формы*/
+div.main-content {
+    padding: 16px;
+}
+  
+/*Стили для input для логина и пароля*/
+#password, #name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;    
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*Стили для кнопки*/
+button {
+    background-color: rgb(162, 247, 26);
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    width: 100%;
+}
+
+/*Стили для кнопки при наведении на нее мышкой*/
+button:hover {
+    background-color: rgb(149, 226, 24);
+}
+
+/*Стили для кнопки при нажатии на нее*/
+button:active {
+    background-color: rgb(127, 192, 22);
+}
+
+/*Стили для контейнера,в котором находиться картинка*/
+.img-container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/*Стили для картинки*/
+img {
+    width: 20%;
+}
+
+/*Стили для текста перед полями для ввода*/
+label {
+    font-weight: 900;
+    font-family: 'Caveat';
+    font-size: 30px;
+}
+
+/*Стили для текста про забытый пароль*/
+div.forget-password {
+    float: right;
+    font-size: 12px;
+}
+
