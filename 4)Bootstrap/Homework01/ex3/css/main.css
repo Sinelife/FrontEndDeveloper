@@ -1,0 +1,14 @@
+.row {
+  border: 1px solid black;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+
+.row>div:nth-of-type(odd){
+  background: rgb(169, 169, 250);
+}
+.row>div:nth-of-type(even){
+  background: rgb(192, 241, 192);
+}
+
