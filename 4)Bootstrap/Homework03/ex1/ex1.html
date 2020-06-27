@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework03_Ex1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h2>Form</h2>
+    <div class="container-fluid py-2">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <form class="myForm">
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold" for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Input name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold"  for="surname">Surname</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Input Surname" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold"  for="login">Login</label>
+                            <input type="text" class="form-control" id="login" placeholder="Input Login" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold"  for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Input Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold"  for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Input Password" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="font-weight-bold"  for="age">Age</label>
+                            <input type="number" class="form-control" id="age" placeholder="Input Age" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-3">
+                            <label class="font-weight-bold"  for="country">Country</label>
+                            <input type="text" class="form-control" id="country" placeholder="Input Country">
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="font-weight-bold"  for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="Input City">
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="font-weight-bold"  for="state">Street</label>
+                            <input type="text" class="form-control" id="street" placeholder="Input Street">
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="font-weight-bold"  for="postalCode">Postal Code</label>
+                            <input type="text" class="form-control" id="postalCode" placeholder="Input Postal Code">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-2">
+                            <label class="font-weight-bold">Gender</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline col-3">
+                            <input type="radio" class="custom-control-input" id="female" name="gender" required>
+                            <label class="custom-control-label" for="female">Female</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline col-3">
+                            <input type="radio" class="custom-control-input" id="male" name="gender" required>
+                            <label class="custom-control-label" for="male">Male</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline col-3">
+                            <input type="radio" class="custom-control-input" id="other" name="gender" required>
+                            <label class="custom-control-label" for="other">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-3">
+                            <label class="font-weight-bold">Family</label>
+                        </div>               
+                        <div class="custom-control custom-checkbox col-4">
+                            <input type="checkbox" class="custom-control-input" id="married">
+                            <label class="custom-control-label" for="married">Married</label>
+                        </div>                 
+                        <div class="custom-control custom-checkbox col-5">
+                            <input type="checkbox" class="custom-control-input" id="children">
+                            <label class="custom-control-label" for="children">Has Children</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-3">
+                            <label class="font-weight-bold">Education/Job</label>
+                        </div> 
+                        <div class="custom-control custom-checkbox col-4">
+                            <input type="checkbox" class="custom-control-input" id="higherEducation">
+                            <label class="custom-control-label" for="higherEducation">Higher Education</label>
+                        </div>
+                        <div class="custom-control custom-checkbox col-5">
+                            <input type="checkbox" class="custom-control-input" id="employed">
+                            <label class="custom-control-label" for="employed">Employed</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <h2>Button groups</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 btn-group-vertical btn-group-lg btn-group-toggle mr-2" data-toggle="buttons">
+                <button type="button" class="btn btn-success">1</button>
+                <button type="button" class="btn btn-danger">2</button>
+                <button type="button" class="btn btn-warning">3</button>
+                <button type="button" class="btn btn-primary">4</button>
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-info">6</button>
+                <button type="button" class="btn btn-dark">7</button>
+                <button type="button" class="btn btn-muted">8</button>
+                <button type="button" class="btn btn-light">9</button>
+                <button type="button" class="btn btn-other">10</button>
+            </div>
+            <div class="col-2 btn-group-vertical btn-group-lg btn-group-toggle mr-2" data-toggle="buttons">
+                <button type="button" class="btn btn-danger">11</button>
+                <button type="button" class="btn btn-warning">12</button>
+                <button type="button" class="btn btn-primary">13</button>
+                <button type="button" class="btn btn-secondary">14</button>
+                <button type="button" class="btn btn-info">15</button>
+                <button type="button" class="btn btn-dark">16</button>
+                <button type="button" class="btn btn-muted">17</button>
+                <button type="button" class="btn btn-light">18</button>
+                <button type="button" class="btn btn-other">19</button>
+                <button type="button" class="btn btn-success">19</button>
+            </div>
+            <div class="col-3 btn-group-vertical btn-group-lg btn-group-toggle mr-2" data-toggle="buttons">
+                <button type="button" class="btn btn-warning">21</button>
+                <button type="button" class="btn btn-primary">22</button>
+                <button type="button" class="btn btn-secondary">23</button>
+                <button type="button" class="btn btn-info">24</button>
+                <button type="button" class="btn btn-dark">25</button>
+                <button type="button" class="btn btn-muted">26</button>
+                <button type="button" class="btn btn-light">27</button>
+                <button type="button" class="btn btn-other">28</button>
+                <button type="button" class="btn btn-success">29</button>
+                <button type="button" class="btn btn-danger">30</button>
+            </div>
+            <div class="col-4 btn-group-vertical btn-group-lg btn-group-toggle mr-2" data-toggle="buttons">
+                <button type="button" class="btn btn-primary">31</button>
+                <button type="button" class="btn btn-secondary">32</button>
+                <button type="button" class="btn btn-info">33</button>
+                <button type="button" class="btn btn-dark">34</button>
+                <button type="button" class="btn btn-muted">35</button>
+                <button type="button" class="btn btn-light">36</button>
+                <button type="button" class="btn btn-other">37</button>
+                <button type="button" class="btn btn-success">36</button>
+                <button type="button" class="btn btn-danger">39</button>
+                <button type="button" class="btn btn-warning">40</button>
+            </div>
+        </div>
+    </div>
+
+    <h3>Навигация, навбары</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<div class="col-3">
+						<nav class="nav flex-column nav-pills">
+							<a class="nav-item nav-link active" id="nav1-1" data-toggle="tab" aria-controls="tab1-1" href="#tab1-1">Ram</a>
+							<a class="nav-item nav-link" id="nav1-2" data-toggle="tab" aria-controls="tab1-2" href="#tab1-2">Senko</a>
+							<a class="nav-item nav-link" id="nav1-3" data-toggle="tab" aria-controls="tab1-3" href="#tab1-3">Rem</a>
+						</nav>
+					</div>
+					<div class="col-9">
+						<div class="tab-content">
+							<div class="tab-pane fade show active" id="tab1-1" aria-labelledby="nav1-1">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ram</h5>
+                                        <p class="card-text">Ram (ラム) is one of the twin maids working for Roswaal L
+                                            Mathers.As the prodigal elder twin Ram was born with extraordinary talent for
+                                            mana manipulation and a powerful body to match that made her the pride of the
+                                            Oni village. </p>
+                                    </div>
+                                    <img class="d-block w-50" src="img/Ram.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                            </div>
+							<div class="tab-pane fade" id="tab1-2" aria-labelledby="nav1-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Senko</h5>
+                                        <p class="card-text">Senko is the deuteragonist of Sewayaki Kitsune no
+                                            Senko-san.Senko is an 800 year old kitsune girl with radiant orange fur with
+                                            white tail tips and brown fox ear tip
+                                        </p>
+                                    </div>
+                                    <img class="d-block w-50" src="img/Senko.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                            </div>
+							<div class="tab-pane fade" id="tab1-3" aria-labelledby="nav1-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rem</h5>
+                                        <p class="card-text">Rem (レム) is one of the twin maids working for Roswaal L
+                                            Mathers. Rem lived with her father, mother, and her elder sister Ram in an Oni
+                                            village.</p>
+                                    </div>
+                                    <img class="d-block w-50" src="img/Rem.jpg">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
