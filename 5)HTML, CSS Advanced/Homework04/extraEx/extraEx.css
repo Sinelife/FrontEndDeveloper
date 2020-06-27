@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Dancing+Script&display=swap');
+
+body {
+    margin: auto;
+    background-color: rgb(248, 248, 219);
+}
+
+
+.header {
+    height: 120px;
+    background-color: rgb(248, 248, 219);
+    display: grid;
+}
+
+.left-logo-part {
+    grid-column: 1/4;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: right;
+    font-family: 'Dancing Script';
+    color: rgb(92, 92, 240);
+}
+
+.right-logo-part {
+    grid-column: 4/7;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Chelsea Market', cursive;
+    text-align: left;
+    justify-content: start;
+    margin-left: 15px;
+    color: rgb(113, 78, 177);
+}
+
+.nav-block {
+    grid-column: 7/20;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    padding: 2%;
+    color: rgb(117, 117, 246);
+    justify-content: end;
+    text-align: center;
+    background-color: lightblue;
+}
+
+a:hover {
+    background-color: rgb(113, 172, 192);
+    color: rgb(57, 57, 172);
+}
+
+
+
+
+
+
+
+
+.main-article {
+    height: 500px;
+    display: grid;
+    grid-template-areas: "image" "header" "text";
+    padding: 13px;
+}
+
+.main-article-image-block {
+    overflow: hidden;
+    grid-area: image;
+}
+
+.main-article-image {
+    width: 90%;
+    min-width: 100px;
+}
+
+
+.main-article-header {
+    font-size: 33px;
+    padding-left: 25px;
+    grid-area: header;
+}
+
+.main-article-text {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 25px;
+    grid-area: article-text;
+}
+
+
+
+
+
+
+.articles {
+    display: grid;
+    margin-top: 30px;
+    grid-template-areas: "one" "two" "three" "four"
+}
+
+.articles-block-name {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Dancing Script';
+}
+
+.article {
+    padding: 6px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+
+.article-image-block {
+    overflow: hidden;
+}
+
+.article-image {
+    width: 100%;
+    min-width: 100px;
+}
+
+.article-header {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    color: grey;
+}
+
+.article-date {
+    margin-top: 5px;
+    color: grey;
+    font-style: italic;
+}
+
+.article-text {
+    margin-top: 10px;
+    color: rgb(90, 89, 89);
+}
+
+.article-button {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(235, 235, 168);
+}
+
+.article-button:hover {
+    background-color: rgb(202, 202, 126);
+}
+
+.article-button:active {
+    background-color: rgb(161, 161, 76);
+}
+
+
+@media (min-width:200px) {
+    .main-article {
+        text-align: center; 
+        grid-template-columns: 100%;   
+        grid-template-areas: "image";
+    }
+
+    .articles {
+        text-align: center; 
+        grid-template-columns: 100%;    
+        grid-template-areas: "one" "two" "three" "four"
+    }
+
+    .main-article-header, .main-article-text, .article-text, .article-header, .article-date {
+        display: none;
+    }
+
+    .article {
+        margin-bottom: 30px;
+    }
+
+    .article-image {
+        width: 70%;
+        text-align: center;
+    }
+
+    .articles-block-name {
+       text-align: center;
+       margin: 0px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 940px) {
+    .main-article {
+        text-align: center; 
+        grid-template-columns: 50% 50%;   
+        grid-template-rows: 20% 80%;  
+        grid-template-areas: "image header" "image article-text";
+    }
+
+    .articles {
+        grid-template-columns: 25% 25% 25% 25%;    
+        grid-template-areas: "one two three four";
+    }
+
+    .main-article-header, .main-article-text, .article-text, .article-header, .article-date {
+        display: block;
+    }
+
+    .article-image {
+        width: 100%;
+        min-width: 100px;
+    }
+
+    .articles-block-name {
+        text-align: left;
+        margin: 80px;
+     }
+
+     a {
+        font-size: 20px;
+    }
+}

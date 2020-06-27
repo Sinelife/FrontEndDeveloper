@@ -1,0 +1,277 @@
+/*Подключаем шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Caveat|Montserrat|Source+Code+Pro&display=swap');
+
+/* Стили для всего body(для убирания лишних отступов)*/
+body {
+    margin: 0px;
+}
+
+/* Стили для шапки сайта header */
+header {
+    width: 100%;
+    background-color: rgb(32, 21, 65);
+    height: 40px;
+    padding: 10px 0px;
+}
+
+/* Стили для главной части сайта*/
+main {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.all-articles {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+/* Стили для главного заголовка на шапке сайта */
+.title {
+    font-family: 'Caveat';
+    font-weight: 900;
+    color: blanchedalmond;
+    font-size: 28px;
+    padding-left: 12%;
+    display: inline;
+}
+
+/* Стили для блока с ссылками */
+.link-block {
+    width: 50%;
+    padding: 10px 10px;
+    float: right;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Indie Flower';
+    color: rgb(192, 177, 155);
+}
+
+/* Стили для ссылок при нажатии */
+a:hover {
+    color: rgb(255, 235, 204);
+    text-decoration: underline;
+}
+
+
+/* Стили для верхнего блока основной части сайта */
+.top-page-part { 
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/main.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для контента верхнего блока основной части сайта */
+.top-page-content {
+    background-color: rgba(23, 23, 117, 0.637);
+    padding: 30px 20px;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Стили для заголовков h2 */
+.top-page-header {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    align-self: flex-start;
+    font-weight: 900;
+}
+
+/* Стили для текста верхнего блока основной части сайта */
+.top-page-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Стили для кнопки верхнего блока основной части сайта */
+.top-page-button {
+    width: 25%;
+    padding: 10px 9px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Стили для кнопки верхнего блока основной части сайта при наведении мышки */
+.top-page-button:hover {
+    background-color: rgb(230, 199, 230);
+}
+
+/* Стили для для текстовой статьи */
+.text-article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Стили для заголовков статей */
+.article-header {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* Стили для картинок для статей */
+.article-img {
+    min-width: 210px;
+    width: 30%;
+}
+
+/* Стили для текста для статей */
+.article-text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    width: 60%;
+}
+
+/* Стили для горизонтального розделителя */
+hr {
+    width: 66%;
+}
+
+
+
+/* Стили для статьи с картинками */
+.img-article {
+    display: grid;
+}
+
+@media (max-width:800px) {
+    .img-article {
+        text-align: center; 
+        grid-template-columns: 100%;   
+    }
+
+    .article-text {
+        font-size: 12px;
+    }
+
+    .article-header {
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .top-page-header {
+        font-size: 15px;
+    }
+
+    .top-page-text {
+        font-size: 12px;
+    }
+
+    .top-page-button {
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 800px) {
+    .img-article {
+        text-align: center; 
+        grid-template-columns: 50% 50%;   
+    }
+
+    .article-text {
+        font-size: 15px;
+    }
+
+    .article-header {
+        font-size: 33px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .top-page-header {
+        font-size: 20px;
+    }
+
+    .top-page-text {
+        font-size: 17px;
+    }
+
+    .top-page-button {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1170px) {
+    .img-article {
+        text-align: center; 
+        grid-template-columns: 33% 33% 33%; 
+    }
+
+    .article-text {
+        font-size: 18px;    
+    }
+
+    .article-header {
+        font-size: 38px;
+    }
+
+    a {
+        font-size: 22px;
+    }
+
+    .top-page-header {
+        font-size: 25px;
+    }
+
+    .top-page-text {
+        font-size: 21px;
+    }
+
+    .top-page-button {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 28px;
+    }
+}
+
+/* Стили для заголовка для статьи с картинками */
+.img-header {
+    margin-bottom: 60px;
+}
+
+/* Стили для картинок для нижней части сайта */
+.botom-page-img {
+    width: 360px;
+    height: 250px;
+    margin: 14px;
+}
+
+/* Стили для подвала сайта */
+footer {
+    background-color: rgb(39, 26, 75);
+    height: 50px;
+    font-family: 'Caveat';
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
