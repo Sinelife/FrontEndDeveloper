@@ -1,0 +1,162 @@
+/* Adding shifts */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Caveat&display=swap');
+
+/* Styles for body */
+body {
+    margin: 0;
+}
+
+/* Styles for form */
+form {
+    background-color: rgb(189, 255, 189);
+    height: 100%;
+}
+
+/* Styles for headers h1, h2, h3 */
+h1 {
+    font-family: "Caveat";
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: italic;
+    position: relative;
+    left: 40%;
+}
+
+/* Styles for block which has pizzaBases radioButtons */
+#pizzaBases {
+    height: 100px;
+}
+
+/* Styles for block which has ingredient checkBoxes */
+#ingredients {
+    clear: both;
+    height: 100px;
+}
+
+/* Styles for div which has current pizza */
+#price {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Styles for div block which has pizzaBase radioButton and label of this pizzaBase*/
+.base {
+    float: left;
+    padding: 0px 12% 0px 6%;
+}
+
+/* Styles for div block which has ingredient checkBox and label of this ingredient*/
+.ingredient {
+    float: left;
+    padding: 0px 12% 0px 6%;
+}
+
+/* Styles for add button */
+#add {
+    background-color: rgb(132, 207, 10);
+    margin: 20px;
+    border: 1px solid black;
+    font-size: 23px;
+}
+
+/* Styles for hover add button */
+#add:hover {
+    background-color: rgb(108, 168, 10);
+}
+
+/* Styles for active add button */
+#add:active {
+    background-color: rgb(86, 134, 9);
+}
+
+/* Styles for block div which has label and input of field */
+.block {
+    text-align: center;
+    padding: 7px;
+}
+
+/* Styles for label */
+label {
+    font-size: 20px;
+}
+
+/* Styles for label of order */
+label.order { 
+    display: block; 
+}
+
+/* Styles for inputs of order */
+input.order { 
+    width: 50%; 
+}
+
+/* Styles for submit button */
+#submit {
+    font-size: 24px;
+    border: none;
+    background-color: rgb(167, 167, 255);
+}
+
+/* Styles for hover submit button */
+#submit:hover {
+    background-color: rgb(118, 118, 202);
+}
+
+/* Styles for active submit button */
+#submit:active {
+    background-color: rgb(92, 92, 185);
+}
+
+/* Styles for div with userInfo and cart blocks */
+.main {
+    width: 100%;
+}
+
+/* Styles for Div block header which has radiButtons with pizza bases, checkBoxes with ingredients and price of current pizza*/
+.header {
+    height: 340px;
+}
+
+/* Styles for  div block were user will write address and phone */
+.userInfo {
+    background-color: rgb(223, 203, 178);
+    width: 30%;
+    margin: 0px;
+    float: left;
+}
+
+/* Styles for cart block */
+#cart {
+    background-color: rgb(177, 223, 231);
+    width: 70%;
+    font-size: 20px;
+    float: left;
+}
+
+/* Styles for div which has add button in it*/
+.add {
+    text-align: center;
+}
+
+/* Styles for delete button */
+.deleteButton {
+    background-color: rgb(238, 147, 165);
+    font-size: 13px;
+    border: none;
+    float: left;
+}
+
+/* Styles for cart element */
+.cartElem {
+    font-size: 16px;
+}

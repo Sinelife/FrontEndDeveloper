@@ -1,0 +1,10 @@
+/*Подключаем шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Caveat|Montserrat|Source+Code+Pro&display=swap');
+
+#controlPanel {
+    margin:20%;
+}
+
+.block {
+    margin: 10px;
+}

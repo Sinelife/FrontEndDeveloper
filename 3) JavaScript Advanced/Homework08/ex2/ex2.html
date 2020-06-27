@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Homework08_Ex2</title>
+        <link href="ex2.css" rel="stylesheet" />
+        <script src="ex2.js"></script>
+    </head>
+    <body>
+        <h1>Main Header</h1>
+
+        <h2>Header1</h2>
+        <p>
+            Lorem ipsum dolor sit amet consllam libero sunt deserunt voluptatibus voluptatum repudiandae provident iure et? Impedit a pariatur at neque error dicta exercitationem voluptate eum distinctio.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consllam libero sunt deserunt voluptatibus voluptatum repudiandae provident iure et? Impedit a pariatur at neque error dicta exercitationem voluptate eum distinctio.
+        </p>        
+        <p>
+            Lorem ipsum dolor sit amet consllam libero sunt deserunt voluptatibus voluptatum repudiandae provident iure et? Impedit a pariatur at neque error dicta exercitationem voluptate eum distinctio.
+        </p>
+        
+        <h2>Header2</h2>
+        <p>
+            Lorem ipdae provident iure et? Impedit a pariatur at neque error dicta exercitationem voluptate eum distinctio.
+        </p>
+        <p>
+            Lorem it a pariatur at neque error dicta exercitationem voluptate eum distinctio.
+        </p>
+
+
+        <!-- Panel which will change styles of page -->
+        <div id="controlPanel">
+
+            <!-- Block of panel which change backgrounColor -->
+            <div class="block">
+                <label for="colorSelector">BackgroundColor</label>
+                <select id="colorSelector" name="select">
+                    <option value="choseBackgrounColor" disabled selected>Chose Background color</option>
+                </select>
+            </div>
+
+            <!-- Block of panel which change color of text -->
+            <div class="block">
+                <label for="textColorSelector">Text Color</label>
+                <input type="color" id="textColorSelector"></select>
+            </div>
+
+            <!-- Block of panel which change shift of text -->
+            <div class="block">
+                <label for="fontSelector">Font</label>
+                <select id="fontSelector" name="select">
+                    <option value="choseFontFamily" disabled selected>Chose text font</option>
+                </select>
+            </div>  
+
+            <!-- Block of panel which change size of text -->
+            <div class="block">
+                <label for="sizeField">Size</label>
+                <input id="sizeField" type="number" placeholder="Enter Size">
+            </div> 
+            
+            <!-- Block which has button which save all chosen in panel slyles in localStorage -->
+            <div class="block">
+                <input id="saveButton" type="button" value="Save">
+            </div>
+        </div>
+    </body>
+</html>

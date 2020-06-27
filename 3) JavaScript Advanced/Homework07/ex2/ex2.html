@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>Homework07_Ex2</title>
+            <link href="ex2.css" rel="stylesheet">
+            <script src="ex2.js"></script>
+            <script src="watermark.js"></script>
+        </head>
+        <body>
+            <!-- Main header -->
+            <h1>Login Form</h1>
+    
+            <!-- Form start -->
+            <form id="loginForm" method="post">
+                <div class="container">
+                    
+                    <!-- Image at top of form -->
+                    <div class="img-container">
+                        <img id="avatar-img" src="img/avatar.jpg">
+                    </div>
+    
+                    <!-- Main part of form -->
+                    <div class="main-content">
+                        
+                        <div class="big-block">
+                            <!-- Part of form for name -->
+                            <div class="sub-block">
+                                <label for="name">Name</label>
+                                <input type="text" watermark="Enter Name" id="name">
+                            </div>
+    
+                            <!-- Part of form for surname -->
+                            <div class="sub-block">
+                                <label for="surname">Surname</label>
+                                <input type="text" watermark="Enter Surname" id="surname">
+                            </div>
+                        </div>
+    
+                        <div class="big-block">
+                            <!-- Part of form for login -->
+                            <div class="sub-block">
+                                <label for="login">Login</label>
+                                <input type="text" watermark="Enter Login" id="login">
+                            </div>
+    
+                            <!-- Part of form for email -->
+                            <div class="sub-block">
+                                <label for="email">Email</label>
+                                <input type="text" watermark="Enter Email" id="email">
+                            </div>
+                        </div>
+    
+                        <div class="big-block">
+                            <!-- Part of form for password -->
+                            <div class="sub-block">
+                                <label for="password">Password</label>
+                                <input type="password" watermark="Enter Password" id="password">
+                            </div>
+    
+                            <!-- Part of form for confirm password -->
+                            <div class="sub-block">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" watermark="Confirm Password" id="confirmPassword">
+                            </div>
+                        </div>
+                        
+                        <!-- Part of form for gender -->
+                        <div class="big-block">
+                            <div class="big-sub-block">
+                                <label class="genderHeader" for="gender">Gender</label>
+                            </div>
+                            <div class="big-sub-block">
+                                <div class="genderBlock">
+                                    <input class="genderType" type="radio" id="male" name="gender" value="male">
+                                    <label class="genderType" for="male">Male</label>
+                                </div>
+                                <div class="genderBlock">
+                                    <input class="genderType" type="radio" id="female" name="gender" value="female">
+                                    <label class="genderType" for="female">Female</label>
+                                </div>
+                                <div class="genderBlock">
+                                    <input class="genderType" type="radio" id="other" name="gender" value="other">
+                                    <label class="genderType" for="other">Other</label>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Button for log in -->
+                        <button id="loginButton" type="submit">
+                            Login
+                        </button>
+                        <div class="bottom-block">
+                            <!-- Part of form for "Remember me" -->
+                            <div class="sub-block">
+                                <input type="checkbox" checked="checked"> 
+                                Remember me
+                            </div>
+    
+                            <!-- Part of form for "Forgot password" -->
+                            <div class="forget-password">
+                                Forgot 
+                                <a href="#">password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </body>
+</html>

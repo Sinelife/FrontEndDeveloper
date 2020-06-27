@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Homework07_ex1</title>
+        <link href="ex1.css" rel="stylesheet" />
+        <script src="ex1.js"></script>
+    </head>
+    <body>
+        <form>
+            <h1>Pizza-Land</h1>
+            <h2>Pizza Creation</h2>
+            <div class="header">
+                <div id="pizzaBases">
+                    <h3>Pizza Size </h3>
+                </div>
+                <div id="ingredients">
+                    <h3>Ingredients</h3>
+                </div>
+                <div id="price">
+                    Price: 0(Base: 0, Ingredients: 0)
+                </div>
+                <div class="add">
+                    <input id="add" type="button" value="Add to Cart">
+                </div>
+            </div>
+            <div class="main">
+                <div class="userInfo">
+                    <h2>Input your adress and phone</h2>
+                    <div class="block">
+                        <label class="order" for="street">Street</label>
+                        <input class="order" id="street" type="text">
+                    </div>
+                    <div class="block">
+                        <label class="order" for="houseNum">House</label>
+                        <input class="order" id="houseNum" type="text" placeholder="1-2digits, defis and big letter">
+                    </div>
+                    <div class="block">
+                        <label class="order" for="flatNum">Flat</label>
+                        <input class="order" id="flatNum" type="number" placeholder="1-3 digits">
+                    </div>
+                    <div class="block">
+                        <label class="order" for="phone">Phone</label>
+                        <input class="order" id="phone" type="number" placeholder="10 digits(first must be zero)">
+                    </div>
+                    <div class="block">
+                        <input id="submit" type="submit" value="Submit">
+                    </div>
+                </div>
+                <div id="cart">
+                    <h2>Your Order</h2>
+                    <div id="summary">
+                        Summary Price: 0
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

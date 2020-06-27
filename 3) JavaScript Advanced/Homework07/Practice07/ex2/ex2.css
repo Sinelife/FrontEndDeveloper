@@ -1,0 +1,10 @@
+div.card-block {
+    width: 200px;
+    height: 100px;
+    border: 2px double black;
+    padding: 2%;
+}
+
+input {
+    margin: 10px;
+}

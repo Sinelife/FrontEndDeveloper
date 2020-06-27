@@ -1,0 +1,95 @@
+/*Adding shifts*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Caveat&display=swap');
+
+div.container {
+    border: 3px solid lightgreen;
+    margin: 0px 15%;
+}
+div.big-block {
+    padding: 0% 2%;
+    height: 100px;
+}
+
+div.sub-block {
+    width: 46%;
+    padding: 0% 2%;
+    float: left;
+}
+
+div.big-sub-block {
+    width: 96%;
+    padding: 0% 2%;
+    float: left;
+}
+
+div.bottom-block {
+    padding: 0% 2%;
+    height: 23px;
+}
+
+h1 {
+    font-family: 'Indie Flower';
+    font-size: 50px;
+    text-align: center;
+}
+
+  
+#password, #confirmPassword, #email, #name, #surname, #login  {
+    width: 100%;
+    padding: 2% 20px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(162, 247, 26);
+    font-size: 20px;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(149, 226, 24);
+}
+
+button:active {
+    background-color: rgb(127, 192, 22);
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img {
+    width: 20%;
+}
+
+label {
+    font-weight: 900;
+    font-family: 'Caveat';
+    font-size: 30px;
+}
+
+.genderHeader {
+    font-size: 30px;
+    float: left;
+}
+
+.genderBlock {
+    padding: 0% 8%;
+    float: left;
+}
+
+.genderType {
+    font-size: 22px;
+}
+
+div.forget-password {
+    float: right;
+    font-size: 12px;
+}
+
