@@ -1,0 +1,66 @@
+/* Стили всего главного контейнера div*/
+div.container {
+    margin: 10px 200px;
+}
+
+/* Стили для заголовков*/
+.title {
+    overflow: hidden;
+    text-align: center;
+    color: #4c6e8f;
+    font-size: 25px;
+}
+
+/* Стили для горизонтальнх линий до и после заголовков*/
+.title:before, .title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: #4c6e8f;
+    position: relative;
+}
+
+.title:before {
+    margin-left: -150%;
+    left: -14px;
+}
+
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+/* Стили для всех блоков div*/
+div {
+    margin: 10px 0px 10px 0px;
+}
+
+/* Стили для блоков с обязательными полями*/
+div.necessarily-row {
+    font-weight: 900;
+}
+
+div.necessarily-row ::before{
+    content: '*';
+}
+
+/* Стили для текста перед полями ввода*/
+label {
+    display: block;
+    text-align: right;
+    width: 120px;
+    float: left;
+    margin-right: 40px;
+}
+
+/* Стили для поля ввода(input)*/
+input {
+    width: 300px;
+}
+
+/* Стили для поля выбора(select)*/
+select {
+    width: 304px;
+}

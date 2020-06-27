@@ -1,0 +1,10 @@
+
+#errorMessage {
+    color: red;
+    font-size: 13px;
+}
+
+#successMessage {
+    color: green;
+    font-size: 30px;
+}

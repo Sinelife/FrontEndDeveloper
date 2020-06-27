@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+    float: left;
+    background-color: green;
+}
+
+input {
+    font-size: 30px;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}

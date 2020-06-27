@@ -1,0 +1,25 @@
+/* Styles for output */
+#output {
+    font-size: 100px;
+}
+
+/* Styles for all input-buttons */
+input {
+    background-color: rgb(177, 177, 177);
+    color: rgb(93, 92, 92);
+    font-size: 50px;
+    margin-right: 100px;
+    border: 5px double black;
+}
+
+/* Styles for all buttons on hover */
+input:hover {
+    background-color: rgb(139, 138, 138);
+    color: rgb(54, 54, 54);
+}
+
+/* Styles for all buttons when clicked*/
+input:active {
+    background-color: rgb(95, 94, 94);
+    color: black;
+}

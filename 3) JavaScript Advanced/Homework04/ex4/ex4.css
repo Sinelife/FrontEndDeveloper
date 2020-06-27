@@ -1,0 +1,13 @@
+/* Styles for moveable div */
+#moveableDiv {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+input {
+    margin: 10px;
+}
