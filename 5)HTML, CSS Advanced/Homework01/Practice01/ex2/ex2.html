@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Practice02_Ex1</title>
+        <script src="ex2.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="card-container" class="container-fluid pr-3">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card border border-success product-card">
+                        <div class="card-header">
+                            <h5 class="float-left">Darksiders 2</h5>     
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="img/darksiders2.jpg" class="w-75" alt="...">
+                            </div>
+                            <input id="add-button" type="button" class="float-right btn btn-success add-button" value="Add" data-price="12">
+                            <div class="price-text">
+                                12$
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border border-success product-card">
+                        <div class="card-header">  
+                            <h5 class="float-left">Overlord: Raising Hell</h5> 
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="img/overlord.jpg" class="w-75" alt="...">
+                            </div>
+                            <input id="add-button" type="button" class="float-right btn btn-success add-button" value="Add" data-price="9">  
+                            <div class="price-text">
+                                9$
+                            </div>    
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border border-success product-card">
+                        <div class="card-header">
+                            <h5 class="float-left">The Elder Scrolls V: Skyrim</h5> 
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="img/skyrim.jpg" class="w-75" alt="...">
+                            </div>
+                            <input id="add-button" type="button" class="float-right btn btn-success add-button" value="Add" data-price="20">
+                            <div class="price-text">
+                                20$
+                            </div>    
+                        </div>     
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <div class="card-header text-center">
+                    <h3>Your order</h3> 
+                </div>
+                <div class="card-body">
+                    <h3 id="order-price">Total: 0$</h3>
+                </div>      
+            </div>
+        </div>
+        
+
+
+        <script src="ex2.js"></script>
+    </body>
+</html>

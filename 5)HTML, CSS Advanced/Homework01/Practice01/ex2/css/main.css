@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(147, 233, 233);
+}
+
+.main {
+    left: 40%;
+    top: 300px;
+}
+
+.product-card {
+    height: 790px;
+}
+
+.price-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+#add-button {
+    margin: 10px;
+}

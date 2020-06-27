@@ -1,0 +1,28 @@
+h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  
+  div.info-block {
+    font-size: 25px;
+  }
+  
+  .img {
+    float: left;
+  }
+  
+  .person {
+    margin: 120px;
+    clear: both;
+    font-size: 18px;
+  }
+  
+  img {
+    width: 300px;
+  }
+  
+  .name {
+    font-size: 23px;
+    font-weight: 900;
+  }

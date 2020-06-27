@@ -1,0 +1,65 @@
+window.addEventListener("load", init, false);
+function init() {
+    let canvas = document.getElementById('canvas');
+    let ctx = canvas.getContext('2d');
+    ctx.shadowBlur = 20;
+    ctx.shadowColor = "black";
+
+    ctx.translate(70, 70);
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(0, 250);
+    ctx.lineTo(0, 0);
+    ctx.quadraticCurveTo(50, 30, 130, 20);
+    ctx.lineTo(350, -20);
+    ctx.quadraticCurveTo(430, -30, 480, 0);
+    ctx.lineTo(480, 250);
+    ctx.quadraticCurveTo(430, 220, 350, 230);
+    ctx.lineTo(130, 270);
+    ctx.quadraticCurveTo(50, 280, 0, 250);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.shadowBlur = 0;
+    ctx.beginPath();
+    ctx.moveTo(130, 20);
+    ctx.lineTo(350, -20);
+    ctx.lineTo(350, 230);
+    ctx.lineTo(130, 270);
+    ctx.fillStyle = "white";
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(230, 230);
+    ctx.lineTo(235, 230);
+    ctx.lineTo(235, 180);
+    ctx.lineTo(275, 180);
+    ctx.lineTo(270, 170);
+    ctx.lineTo(320, 130);
+    ctx.lineTo(310, 125);
+    ctx.lineTo(320, 90);
+    ctx.lineTo(295, 100);
+    ctx.lineTo(290, 85);
+    ctx.lineTo(270, 110);
+    ctx.lineTo(275, 55);
+    ctx.lineTo(260, 65);
+    ctx.lineTo(250, 35);
+    ctx.lineTo(230, 70);
+    ctx.lineTo(215, 60);
+    ctx.lineTo(222, 120);
+    ctx.lineTo(195, 100);
+    ctx.lineTo(192, 120);
+    ctx.lineTo(165, 110);
+    ctx.lineTo(171, 140);
+    ctx.lineTo(160, 150);
+    ctx.lineTo(195, 175);
+    ctx.lineTo(187, 192);
+    ctx.lineTo(231, 180);
+    ctx.lineTo(230, 230);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+    ctx.restore();
+}
