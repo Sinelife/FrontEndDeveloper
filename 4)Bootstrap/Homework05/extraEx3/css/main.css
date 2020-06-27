@@ -1,0 +1,18 @@
+
+table.table-bordered{
+  border:1px solid blue;
+  margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+  border:1px solid blue;
+}
+table.table-bordered > tbody > tr > td{
+  border:1px solid blue;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+  background-color: lightgray;
+}
+.table-striped > tbody > tr:nth-child(2n + 1) > td, .table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: white;
+}

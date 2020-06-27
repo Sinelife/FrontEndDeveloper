@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(147, 233, 233);
+}
+
+.main {
+    left: 40%;
+    top: 300px;
+}
+
+/* img {
+    height: 650px;
+} */
+
+.product-card {
+    height: 730px;
+}
