@@ -1,0 +1,33 @@
+
+#buttonBlock {
+    width: 300px;
+    height: 150px;
+    margin-left: 40%;
+}
+
+.operationButton {
+    background-color: rgb(180, 172, 172);
+    font-size: 38px;
+    width: 50%;
+    height: 50%;
+}
+
+#minusButton {
+    float: left;;
+}
+
+#devideButton {
+    float: left;;
+}
+
+#fieldBlock {
+    width: 300px;
+    height: 150px;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+
+.field {
+    margin: 10px;
+}

@@ -1,0 +1,7 @@
+/* Styles for moveable div */
+#moveableDiv {
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}

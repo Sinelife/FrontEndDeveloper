@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(241, 221, 194);
+}
+
+/* Styles for moveable div-discount */
+#discount {
+    background-color: rgb(128, 128, 241);
+    font-size: 34px;
+    position: absolute;
+}
