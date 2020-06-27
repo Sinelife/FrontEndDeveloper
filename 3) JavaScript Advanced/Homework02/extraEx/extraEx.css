@@ -1,0 +1,12 @@
+/* Styled for big div blocks */
+div.block {
+    margin: 60px; 
+    padding: 20px;
+}
+
+/* Styles for buttons*/
+.button {
+    width: 100px;
+    height: 40px;
+    border: none;
+}
