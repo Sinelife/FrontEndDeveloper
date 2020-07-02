@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "system",
+        "sourceMap": false,
+        "removeComments": true,
+        "outDir": "JavaScript"
+    },
+    "include": [
+        "*.ts"
+    ]
+}
