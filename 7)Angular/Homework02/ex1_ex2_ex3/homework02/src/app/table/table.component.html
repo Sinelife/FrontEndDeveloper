@@ -1,0 +1,25 @@
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr id *ngFor="let product of products; let i = index">
+            <td *ngIf="i < rows">
+              {{product.id}}
+            </td>
+            <td *ngIf="i < rows">
+              {{product.name}}
+            </td>
+            <td *ngIf="i < rows">
+              {{product.price}}
+            </td>
+            <td *ngIf="i < rows">
+              <input class="btn btn-danger" type="button" value="Delete" (click)="deleteRow(product)">
+            </td> 
+        </tr>
+    </tbody>
+  </table>

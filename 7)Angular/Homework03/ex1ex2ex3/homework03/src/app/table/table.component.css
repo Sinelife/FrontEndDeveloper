@@ -1,0 +1,8 @@
+.red {
+    background-color: rgb(243, 169, 169);
+}
+
+#category-select {
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
