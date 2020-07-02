@@ -1,0 +1,13 @@
+{
+  "name": "typescript-fundamentals-lesson-4",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "typescript": "^2.8.3"
+  }
+}
