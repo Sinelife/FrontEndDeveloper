@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Стили для шапки сайта header */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Caveat|Montserrat|Source+Code+Pro&display=swap");
+header {
+  width: 100%;
+  background-color: #201541;
+  height: 40px;
+  padding: 10px 0px; }
+
+/* Стили для главного заголовка на шапке сайта */
+.title {
+  font-family: 'Caveat';
+  font-weight: 900;
+  color: #c0b19b;
+  font-size: 28px;
+  padding-left: 12%;
+  display: inline; }
+
+/* Стили для блока с ссылками */
+.link-block {
+  width: 50%;
+  padding: 10px 10px;
+  float: right; }
+
+/* Стили для ссылок */
+a {
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'Indie Flower';
+  color: #c0b19b; }
+
+/* Стили для ссылок при нажатии */
+a:hover {
+  color: white;
+  text-decoration: underline; }
+
+/* Стили для шапки сайта header */
+header {
+  width: 100%;
+  background-color: #201541;
+  height: 40px;
+  padding: 10px 0px; }
+
+/* Стили для главного заголовка на шапке сайта */
+.title {
+  font-family: 'Caveat';
+  font-weight: 900;
+  color: #c0b19b;
+  font-size: 28px;
+  padding-left: 12%;
+  display: inline; }
+
+/* Стили для блока с ссылками */
+.link-block {
+  width: 50%;
+  padding: 10px 10px;
+  float: right; }
+
+/* Стили для ссылок */
+a {
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'Indie Flower';
+  color: #c0b19b; }
+
+/* Стили для ссылок при нажатии */
+a:hover {
+  color: white;
+  text-decoration: underline; }
+
+/* Стили для подвала сайта */
+footer {
+  background-color: #201541;
+  height: 40px;
+  padding: 10px 0px;
+  font-family: 'Caveat';
+  color: #c0b19b;
+  font-size: 28px;
+  text-align: center; }
+
+/*Подключаем шрифты*/
+/* Стили для всего body(для убирания лишних отступов)*/
+body {
+  margin: 0px; }
+
+/* Стили для главной части сайта*/
+main {
+  width: 100%;
+  margin-bottom: 20px; }
+
+/* Стили для верхнего блока основной части сайта */
+.top-page-part {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 600px;
+  background-image: url(./img/main.jpg);
+  background-position: center; }
+
+/* Стили для контента верхнего блока основной части сайта */
+.top-page-content {
+  top: 25%;
+  left: 10%;
+  background-color: rgba(23, 23, 117, 0.637);
+  padding: 10px 20px;
+  color: white;
+  width: 70%;
+  position: absolute; }
+
+/* Стили для заголовков h2 */
+h2 {
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+  font-size: 25px; }
+
+/* Стили для текста верхнего блока основной части сайта */
+.top-page-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px; }
+
+/* Стили для кнопки верхнего блока основной части сайта */
+.top-page-button {
+  float: right;
+  padding: 10px 9px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px; }
+
+/* Стили для кнопки верхнего блока основной части сайта при наведении мышки */
+.top-page-button:hover {
+  background-color: #e6c7e6; }
+
+/* Стили для для текстовой статьи */
+.text-article {
+  padding: 12px 20%; }
+
+/* Стили для заголовков статей */
+.article-header {
+  text-decoration: underline;
+  color: black;
+  text-align: center;
+  font-size: 38px;
+  color: #584b37; }
+
+/* Стили для картинок для статей */
+.article-img {
+  padding: 10px 25%;
+  width: 50%; }
+
+/* Стили для текста для статей */
+.article-text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: 18px; }
+
+/* Стили для горизонтального розделителя */
+hr {
+  width: 66%; }
+
+/* Стили для статьи с картинками */
+.img-article {
+  overflow: hidden;
+  width: 80%;
+  max-height: 2000px;
+  padding-left: 19%; }
+
+/* Стили для заголовка для статьи с картинками */
+.img-header {
+  margin-bottom: 60px; }
+
+/* Стили для картинок для нижней части сайта */
+.botom-page-img {
+  width: 360px;
+  height: 250px;
+  float: left;
+  margin: 20px; }

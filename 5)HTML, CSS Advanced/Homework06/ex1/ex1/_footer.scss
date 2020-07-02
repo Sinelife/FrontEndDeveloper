@@ -1,0 +1,12 @@
+@import 'header';
+
+/* Стили для подвала сайта */
+footer {
+    background-color: $darkViolet;
+    height: 40px;
+    padding: 10px 0px;
+    font-family: 'Caveat';
+    color: $headerTextColor;
+    font-size: 28px;
+    text-align: center;
+}

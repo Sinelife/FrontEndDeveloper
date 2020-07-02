@@ -1,0 +1,10 @@
+div {
+  border: 11px solid orange;
+  color: black;
+  width: 260px; }
+
+p {
+  padding: 13px;
+  margin: 13px;
+  border-color: orange;
+  background-color: #ffae1a; }

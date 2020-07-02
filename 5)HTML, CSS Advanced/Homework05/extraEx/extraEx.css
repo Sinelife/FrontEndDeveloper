@@ -1,0 +1,101 @@
+
+body {
+    padding:20px
+}
+
+.container1 {
+    width: 470px;
+    overflow: hidden;
+    float: left;
+    /* position: absolute;
+    width: 1000 px;
+    height: 600px;
+    overflow: hidden; */
+}
+.container2 {
+    width: 470px;   
+    float: left;
+    overflow: hidden;
+    /* position: absolute;
+    width: 1400 px;
+    height: 600px;
+    overflow: hidden; */
+}
+
+.picture1 { 
+    width: 700px;
+    height: 700px;
+    background: 
+        radial-gradient(ellipse 100% 30% at center, 
+        orange 1px, orange 111px, 
+        green 22%, lightgray 24%,
+        green 26%, lightgray 28%,
+        green 30%, lightgray 32%,
+        green 34%, lightgray 36%,
+        green 38%, lightgray 40%,
+        green 42%, lightgray 44%,
+        green 46%, lightgray 48%,
+        green 50%, lightgray 52%,
+        green 54%, lightgray 56%,
+        green 58%, lightgray 60%,
+        green 62%, lightgray 64%,
+        green 66%, lightgray 68%,
+        green 70%, lightgray 72%,
+        green 74%, lightgray 76%,
+        green 78%, lightgray 80%,
+        green 82%, lightgray 84%,
+        green 86%, lightgray 88%,
+        green 90%, lightgray 92%,
+        green 94%, lightgray 96%,
+        green 98%, lightgray 100%,
+        green 102%, lightgray 104%,
+        green 106%, lightgray 108%,
+        green 110%, lightgray 112%,
+        green 114%, lightgray 116%,
+        green 118%, lightgray 120%,
+        green 122%, lightgray 124%,
+        green 126%, lightgray 128%,
+        green 130%, lightgray 132%,
+        green 134%, lightgray 136%,
+        green 138%, lightgray 140%);
+}
+
+
+.picture2 { 
+    width: 700px;
+    height: 700px;
+    background: 
+        radial-gradient(ellipse 100% 30% at center, 
+        orange 0%, orange 20%, 
+        green 22%, lightgray 24%,
+        green 26%, lightgray 28%,
+        green 30%, lightgray 32%,
+        green 34%, lightgray 36%,
+        green 38%, lightgray 40%,
+        green 42%, lightgray 44%,
+        green 46%, lightgray 48%,
+        green 50%, lightgray 52%,
+        green 54%, lightgray 56%,
+        green 58%, lightgray 60%,
+        green 62%, lightgray 64%,
+        green 66%, lightgray 68%,
+        green 70%, lightgray 72%,
+        green 74%, lightgray 76%,
+        green 78%, lightgray 80%,
+        green 82%, lightgray 84%,
+        green 86%, lightgray 88%,
+        green 90%, lightgray 92%,
+        green 94%, lightgray 96%,
+        green 98%, lightgray 100%,
+        green 102%, lightgray 104%,
+        green 106%, lightgray 108%,
+        green 110%, lightgray 112%,
+        green 114%, lightgray 116%,
+        green 118%, lightgray 120%,
+        green 122%, lightgray 124%,
+        green 126%, lightgray 128%,
+        green 130%, lightgray 132%,
+        green 134%, lightgray 136%,
+        green 138%, lightgray 140%);
+}
+

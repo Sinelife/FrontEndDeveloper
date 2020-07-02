@@ -1,0 +1,43 @@
+$darkViolet: rgb(32, 21, 65);
+$headerTextColor: rgb(192, 177, 155);
+$lightRed: rgb(248, 100, 100);
+
+/* Стили для шапки сайта header */
+header {
+    width: 100%;
+    background-color: $darkViolet;
+    height: 40px;
+    padding: 10px 0px;
+}
+
+/* Стили для главного заголовка на шапке сайта */
+.title {
+    font-family: 'Caveat';
+    font-weight: 900;
+    color: $headerTextColor;
+    font-size: 28px;
+    padding-left: 12%;
+    display: inline;
+}
+
+/* Стили для блока с ссылками */
+.link-block {
+    width: 50%;
+    padding: 10px 10px;
+    float: right;
+}
+
+/* Стили для ссылок */
+a {
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-family: 'Indie Flower';
+    color: $headerTextColor;
+}
+
+/* Стили для ссылок при нажатии */
+a:hover {
+    color: lighten($headerTextColor, 50%);
+    text-decoration: underline;
+}

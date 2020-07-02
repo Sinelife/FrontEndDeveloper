@@ -1,0 +1,191 @@
+@keyframes pinBeforeWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 30px;
+        height: 30px;
+        margin-left: -16px;
+        margin-top: -16px;
+        opacity: 0;
+    }
+}
+
+@keyframes pinAfterWave {
+    from {
+        width: 0;
+        height: 0;
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+    to {
+        width: 50px;
+        height: 50px;
+        margin-left: -26px;
+        margin-top: -26px;
+        opacity: 0;
+    }
+}
+
+
+body {
+    color: white;
+    background-color: rgb(218, 236, 253);
+}
+
+#map {
+    width: 1800px;
+    height: 1500px;
+    position: relative;
+    background-image: url(img/asia.svg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+}
+
+.town {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #f3244a;
+    position: absolute;
+    cursor: pointer;
+}
+
+.tokyo {
+    top: 350px;
+    left: 1535px;
+}
+
+.seoul {
+    left: 1364px;
+    top: 318px;
+}
+
+.pekin {
+    left: 1212px;
+    top: 280px;
+}
+
+.shanghai {
+    left: 1322px;
+    top: 422px;
+}
+
+.bangkok {
+    left: 1095px;
+    top: 688px;
+}
+
+.hanoi {
+    left: 1154px;
+    top: 574px;
+}
+
+.astana {
+    left: 624px;
+    top: 124px;
+}
+
+.town-name {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.town:before, .town:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 0;
+    height: 0;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.town:before {
+    animation: pinBeforeWave 0.8s ease-in infinite;
+}
+
+.town:after {
+    animation: pinAfterWave 0.8s ease-in infinite;
+}
+
+.town:hover:before, .town:hover:after {
+    animation-play-state: paused;
+}
+
+.ticket-block {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    min-width: 150px;
+    height: auto;
+    z-index: 2;
+    background: #333;
+    padding: 10px;
+    bottom: 22px;
+    left: -8px;
+    box-shadow: 4px 4px 0px 0px rgba(33, 33, 33, 0.2);
+    transform: rotateX(90deg);
+    transition: all 0.4s ease-in-out 0.4s;
+}
+
+.ticket-block:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #333;
+    position: absolute;
+    bottom: -5px;
+    transform: rotateZ(-45deg);
+}
+
+.town:hover .ticket-block {
+    visibility: visible;
+    opacity: 0.8;
+    transition-delay: 0s;
+    transform: rotateZ(0deg);
+}
+
+.event, .band {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.date {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #fafafa;
+    background-color: red;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+input:hover {
+    background-color: rgb(197, 3, 3);
+}
+
+input:active {
+    background-color: rgb(153, 4, 4);
+}
