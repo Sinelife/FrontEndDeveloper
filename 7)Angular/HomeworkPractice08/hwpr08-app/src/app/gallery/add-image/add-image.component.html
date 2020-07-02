@@ -1,0 +1,5 @@
+<div id="add-block">
+    <input type="text" placeholder="Input name:" id="name" [(ngModel)]="name">
+    <input type="text" placeholder="Input path:" id="src" [(ngModel)]="src">
+    <button class="btn btn-success" (click)="sendImage(name, src)">Add</button>
+</div>

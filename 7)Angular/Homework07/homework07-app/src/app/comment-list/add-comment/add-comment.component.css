@@ -1,0 +1,10 @@
+#username, #text {
+    margin: 10px 20px 0px 20px;
+}
+
+#add-block {
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin-top: 127px;
+}

@@ -1,0 +1,14 @@
+<div class="gallery">
+    <div class="gallery-item" *ngFor="let image of images; let i = index">
+      <div class="item-top-part">
+        <div class="name" (click)="onSelect(image)">
+          {{image.name}}
+        </div>
+        <div class="del-button">
+          <button class="btn btn-danger del-button" (click)="deleteImage(image.id)">X</button>
+        </div>
+      </div>
+      <img  (click)="onSelect(image)" src="{{image.src}}" alt="">
+    </div>
+  </div>
+  <app-add-image (messageToEmit)="addImage($event)"></app-add-image>

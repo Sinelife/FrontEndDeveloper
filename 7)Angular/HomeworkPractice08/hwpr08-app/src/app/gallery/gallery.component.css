@@ -1,0 +1,40 @@
+.gallery {
+    margin-top: 50px;
+    margin: 30px 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-item {
+    margin: 40px 0px;
+}
+
+.item-top-part {
+    display: grid;
+    grid-template-columns: 70% 4%;
+}
+
+.name {
+    width: 50%;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.name:hover {
+    font-weight: 700;
+    text-align: center;
+}
+
+.del-button {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: start;
+    justify-self: center;
+}
+
+img {
+    width: 65%;
+    margin: 8px;
+}

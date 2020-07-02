@@ -1,0 +1,19 @@
+.comment-item {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    width: 15%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text {
+    width: 65%;
+}
+
+.date {
+    width: 20%;
+}

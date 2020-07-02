@@ -1,0 +1,8 @@
+<div *ngIf="image">
+    <h2>Id: {{image.id}}</h2>
+    <h2>Name: {{image.name}}</h2>
+    <img src="{{image.src}}" alt="">
+    <div>
+        <button class="btn btn-primary" (click)="goToGallery()">Go Back</button>
+    </div>
+</div>

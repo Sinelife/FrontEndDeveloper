@@ -1,0 +1,5 @@
+<div id="add-block">
+    <input type="text" placeholder="Input userName:" id="username" [(ngModel)]="userName">
+    <input type="text" placeholder="Input comment text:" id="text" [(ngModel)]="text">
+    <button class="btn btn-success" (click)="sendComment(userName, text)">Add</button>
+</div>
