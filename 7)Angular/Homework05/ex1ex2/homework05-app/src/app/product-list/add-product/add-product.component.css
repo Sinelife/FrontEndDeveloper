@@ -1,0 +1,8 @@
+#name, #price, #category {
+    margin: 10px 20px 0px 20px;
+}
+
+#add-block {
+    display: flex;
+    justify-content: center;
+}

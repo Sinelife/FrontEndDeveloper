@@ -1,0 +1,33 @@
+<h1 id="main-header">PRODUCT TABLE</h1>
+
+<select id="category-select" (change)="getProductsByCategory()">
+  <option *ngFor="let enum of Category | keyvalue">{{enum.value}}</option>
+  <option>All</option>
+</select>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Category</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr [ngClass]="product.price > 500 ? 'red' : ''" *ngFor="let product of products; let i = index">
+            <td>
+              {{product.name}}
+            </td>
+            <td>
+              {{product.category}}
+            </td>
+            <td>
+                <button class="btn btn-info" (click)="onSelect(product)">Details</button>
+            </td>
+            <td>
+                <button class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+  </table>
+  <app-add-product (messageToEmit)="addProduct($event)"></app-add-product>

@@ -1,0 +1,35 @@
+<select id="category-select" (change)="updateList()">
+  <option disabled>Select Category</option>
+  <option *ngFor="let enum of Category | keyvalue">{{enum.value}}</option>
+  <option>All</option>
+</select>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Category</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr [ngClass]="product.price > 500 ? 'red' : ''" *ngFor="let product of products; let i = index">
+          <ng-template [ngIf]="i < rows">
+            <td>
+              {{product.id}}
+            </td>
+            <td>
+              {{product.name}}
+            </td>
+            <td>
+              {{product.price}}
+            </td>
+            <td>
+              {{product.category}}
+            </td>
+            <app-delete-product productId="{{product.id}}" (messageToEmit)="deleteProduct($event)"></app-delete-product>
+          </ng-template>
+        </tr>
+    </tbody>
+  </table>
+  <app-add-product (messageToEmit)="addProduct($event)"></app-add-product>
